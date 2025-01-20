@@ -1,7 +1,7 @@
 name: Server Tests (Python)
 on:
   push:
-    branches:
+    branches:"6"
       - main
       - fix-ci
     paths:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   server_test:
-    strategy:
+    strategy:Raw
       fail-fast: false
       matrix:
         runtime:
