@@ -3,6 +3,34 @@
 This sample shows you how to integrate with Stripe [Checkout](https://docs.stripe.com/checkout).
 
 Building a payment form UI from scratch is difficult -- input field validation, error message handing, and localization are just a few things to think about when designing a simple checkout flow.
+{
+  "id": "cus_NffrFeUfNV2Hib",
+  "object": "customer",
+  "address": null,
+  "balance": 0,
+  "created": 1680893993,
+  "currency": null,
+  "default_source": null,
+  "delinquent": false,
+  "description": null,
+  "discount": null,
+  "email": "jennyrosen@example.com",
+  "invoice_prefix": "0759376C",
+  "invoice_settings": {
+    "custom_fields": null,
+    "default_payment_method": null,
+    "footer": null,
+    "rendering_options": null
+  },
+  "livemode": false,
+  "metadata": {},
+  "name": "Jenny Rosen",
+  "next_invoice_sequence": 1,
+  "phone": null,
+  "preferred_locales": [],
+  "shipping": null,
+  "tax_exempt": "none",
+  "test_clock": null
 
 We built [Checkout](https://docs.stripe.com/payments/checkout) to do that work for you so now you can focus on building the best storefront experience for your customers.
 
